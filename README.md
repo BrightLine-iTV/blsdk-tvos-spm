@@ -1,3 +1,3 @@
 # BLSDK_TVOS
 
-SPM of the BrightLine SDK for tvOS
+Swift Package of the BrightLine SDK for tvOS
