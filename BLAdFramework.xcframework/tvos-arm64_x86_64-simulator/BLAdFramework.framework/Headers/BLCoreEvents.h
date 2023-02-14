@@ -53,6 +53,10 @@
 -(void)BLMicrositeDidCloseFromMenuPress;
 -(void)BLMicrositeDidOpen;
 
+-(void)BLSelectorDidOpen;
+-(void)BLSelectorDidCloseFromMenuPress;
+-(void)BLSelectorCompleted;
+
 -(void)BLManifestLoaded;
 -(void)BLManfiestRequested;
 -(void)BLManifestUnavailable;
@@ -66,6 +70,8 @@
 -(void)BLPlayerSpotCompleteQuartile;
 -(void)BLAdDestroyed;
 -(void)BLAdLoaded;
+
+-(void)BLRaiseEvent:(NSString*)eventString;
 
 @end
 
