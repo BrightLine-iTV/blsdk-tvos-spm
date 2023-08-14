@@ -21,6 +21,7 @@
 #import <UIKit/UIKit.h>
 
 #import "BLCoreEvents.h"
+#import "AVKit/AVKit.h"
 
 /*
  
@@ -73,8 +74,9 @@
  
  
  */
--(void)showAd:(UIView *)viewController withDefinition:(NSString*)adDefinition;
+-(void)showAd:(UIView *)viewController withDefinition:(NSString*)adDefinition withPlayerObject:(AVPlayer*)playerObject;
 
+-(void)showAd:(UIView *)viewController withDefinition:(NSString*)adDefinition;
 
 /*
  
@@ -100,6 +102,9 @@
  
  */
 -(void)hideAd;
+
+
+-(BOOL)shouldHideAd;
 
 //this should be removed
     

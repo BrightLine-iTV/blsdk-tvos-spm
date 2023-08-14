@@ -68,7 +68,7 @@
 -(void)BLPlayerSpotMidPointQuartile;
 -(void)BLPlayerSpotThirdQuartile;
 -(void)BLPlayerSpotCompleteQuartile;
--(void)BLAdDestroyed;
+-(void)BLAdDestroyed:(NSString*)analyticsOutput;
 -(void)BLAdLoaded;
 
 -(void)BLRaiseEvent:(NSString*)eventString;
