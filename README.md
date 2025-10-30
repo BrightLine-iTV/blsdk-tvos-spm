@@ -2,4 +2,4 @@
 
 Swift Package of the BrightLine SDK for tvOS
 
-Current Version: 1.10.3
+Current Version: 1.11.0-pre-release
